@@ -7,22 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A469DFEF29DC509E00CD8B1F /* Office_Worker_SimulatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A469DFEE29DC509E00CD8B1F /* Office_Worker_SimulatorApp.swift */; };
-		A469DFF129DC509E00CD8B1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A469DFF029DC509E00CD8B1F /* ContentView.swift */; };
-		A469DFF329DC509F00CD8B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A469DFF229DC509F00CD8B1F /* Assets.xcassets */; };
-		A469DFF629DC509F00CD8B1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A469DFF529DC509F00CD8B1F /* Preview Assets.xcassets */; };
+		A4BB77ED29DDBA320002E28C /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB77EC29DDBA320002E28C /* Display.swift */; };
+		A4BB77EF29DDBED40002E28C /* WorkTaskProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB77EE29DDBED40002E28C /* WorkTaskProgram.swift */; };
+		A4BB77F129DDD5060002E28C /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB77F029DDD5060002E28C /* Haptics.swift */; };
+		A4BB77F329DDD5190002E28C /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB77F229DDD5190002E28C /* Storage.swift */; };
+		A4BB77F529DE22A80002E28C /* OldBoxDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB77F429DE22A80002E28C /* OldBoxDisplay.swift */; };
+		A4BB77F729DE22B20002E28C /* StandardOfficeKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB77F629DE22B20002E28C /* StandardOfficeKeyboard.swift */; };
+		A4BB77FA29DEC3B40002E28C /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB77F929DEC3B40002E28C /* DisplayView.swift */; };
+		A4BB77FD29DECAA20002E28C /* TwoButtonKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB77FC29DECAA20002E28C /* TwoButtonKeyboardView.swift */; };
+		A4BB77FF29DED7B70002E28C /* OldTwoButtonKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB77FE29DED7B70002E28C /* OldTwoButtonKeyboard.swift */; };
+		A4BB780129DEDED80002E28C /* ImageFromColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB780029DEDED80002E28C /* ImageFromColor.swift */; };
+		A4BB780429DF00210002E28C /* Computer.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4BB780329DF00210002E28C /* Computer.xcassets */; };
+		A4BB780629DF00930002E28C /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB780529DF00930002E28C /* Images.swift */; };
+		A4BB780A29DF01460002E28C /* KeyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB780929DF01460002E28C /* KeyButton.swift */; };
+		A4BB780C29DF02050002E28C /* HighlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB780B29DF02050002E28C /* HighlightButton.swift */; };
+		A4BB780F29DF0F960002E28C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4BB780E29DF0F960002E28C /* Colors.xcassets */; };
+		A4BB781129DF0FB10002E28C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB781029DF0FB10002E28C /* Colors.swift */; };
+		A4BB781529DF25AA0002E28C /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB781429DF25AA0002E28C /* Sounds.swift */; };
+		A4BB781729DF29770002E28C /* oldKey.wav in Resources */ = {isa = PBXBuildFile; fileRef = A4BB781629DF29770002E28C /* oldKey.wav */; };
+		A4BB781929DF3E310002E28C /* Office.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4BB781829DF3E310002E28C /* Office.xcassets */; };
+		A4C536F929DC6AE5004641DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C536F829DC6AE5004641DB /* AppDelegate.swift */; };
+		A4C5370129DC6AE5004641DB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C5370029DC6AE5004641DB /* GameViewController.swift */; };
+		A4C5370429DC6AE5004641DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C5370229DC6AE5004641DB /* Main.storyboard */; };
+		A4C5370629DC6AE6004641DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C5370529DC6AE6004641DB /* Assets.xcassets */; };
+		A4C5370929DC6AE6004641DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C5370729DC6AE6004641DB /* LaunchScreen.storyboard */; };
+		A4C5371229DC704C004641DB /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C5371129DC704C004641DB /* Keyboard.swift */; };
+		A4C5371529DC710C004641DB /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C5371429DC710C004641DB /* Closures.swift */; };
+		A4C5371729DC72BC004641DB /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C5371629DC72BC004641DB /* Program.swift */; };
+		A4C5371E29DC7C23004641DB /* Computer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C5371D29DC7C23004641DB /* Computer.swift */; };
+		A4C5372229DC7C98004641DB /* WorkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C5372129DC7C98004641DB /* WorkTask.swift */; };
+		A4C5372429DC7E6D004641DB /* StubWorkTaskProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C5372329DC7E6D004641DB /* StubWorkTaskProgram.swift */; };
+		A4C5372629DC8AAF004641DB /* WorkDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C5372529DC8AAF004641DB /* WorkDay.swift */; };
+		A4C5372829DC8B53004641DB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C5372729DC8B53004641DB /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A469DFEB29DC509E00CD8B1F /* Office-Worker-Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Office-Worker-Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A469DFEE29DC509E00CD8B1F /* Office_Worker_SimulatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Office_Worker_SimulatorApp.swift; sourceTree = "<group>"; };
-		A469DFF029DC509E00CD8B1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A469DFF229DC509F00CD8B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A469DFF529DC509F00CD8B1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4BB77EC29DDBA320002E28C /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
+		A4BB77EE29DDBED40002E28C /* WorkTaskProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkTaskProgram.swift; sourceTree = "<group>"; };
+		A4BB77F029DDD5060002E28C /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		A4BB77F229DDD5190002E28C /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		A4BB77F429DE22A80002E28C /* OldBoxDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldBoxDisplay.swift; sourceTree = "<group>"; };
+		A4BB77F629DE22B20002E28C /* StandardOfficeKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardOfficeKeyboard.swift; sourceTree = "<group>"; };
+		A4BB77F929DEC3B40002E28C /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		A4BB77FC29DECAA20002E28C /* TwoButtonKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoButtonKeyboardView.swift; sourceTree = "<group>"; };
+		A4BB77FE29DED7B70002E28C /* OldTwoButtonKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldTwoButtonKeyboard.swift; sourceTree = "<group>"; };
+		A4BB780029DEDED80002E28C /* ImageFromColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFromColor.swift; sourceTree = "<group>"; };
+		A4BB780329DF00210002E28C /* Computer.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Computer.xcassets; sourceTree = "<group>"; };
+		A4BB780529DF00930002E28C /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		A4BB780929DF01460002E28C /* KeyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyButton.swift; sourceTree = "<group>"; };
+		A4BB780B29DF02050002E28C /* HighlightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightButton.swift; sourceTree = "<group>"; };
+		A4BB780E29DF0F960002E28C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		A4BB781029DF0FB10002E28C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A4BB781429DF25AA0002E28C /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		A4BB781629DF29770002E28C /* oldKey.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = oldKey.wav; sourceTree = "<group>"; };
+		A4BB781829DF3E310002E28C /* Office.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Office.xcassets; sourceTree = "<group>"; };
+		A4C536F529DC6AE5004641DB /* Office-Worker-Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Office-Worker-Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C536F829DC6AE5004641DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4C5370029DC6AE5004641DB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A4C5370329DC6AE5004641DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4C5370529DC6AE6004641DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4C5370829DC6AE6004641DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4C5371129DC704C004641DB /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		A4C5371429DC710C004641DB /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
+		A4C5371629DC72BC004641DB /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
+		A4C5371D29DC7C23004641DB /* Computer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Computer.swift; sourceTree = "<group>"; };
+		A4C5372129DC7C98004641DB /* WorkTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkTask.swift; sourceTree = "<group>"; };
+		A4C5372329DC7E6D004641DB /* StubWorkTaskProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubWorkTaskProgram.swift; sourceTree = "<group>"; };
+		A4C5372529DC8AAF004641DB /* WorkDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkDay.swift; sourceTree = "<group>"; };
+		A4C5372729DC8B53004641DB /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A469DFE829DC509E00CD8B1F /* Frameworks */ = {
+		A4C536F229DC6AE5004641DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,99 +88,199 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A469DFE229DC509E00CD8B1F = {
+		A4BB77F829DEC3A10002E28C /* Display */ = {
 			isa = PBXGroup;
 			children = (
-				A469DFED29DC509E00CD8B1F /* Office-Worker-Simulator */,
-				A469DFEC29DC509E00CD8B1F /* Products */,
+				A4BB77F429DE22A80002E28C /* OldBoxDisplay.swift */,
+				A4BB77F929DEC3B40002E28C /* DisplayView.swift */,
 			);
+			path = Display;
 			sourceTree = "<group>";
 		};
-		A469DFEC29DC509E00CD8B1F /* Products */ = {
+		A4BB77FB29DECA8F0002E28C /* Keyboard */ = {
 			isa = PBXGroup;
 			children = (
-				A469DFEB29DC509E00CD8B1F /* Office-Worker-Simulator.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A469DFED29DC509E00CD8B1F /* Office-Worker-Simulator */ = {
-			isa = PBXGroup;
-			children = (
-				A469DFFC29DC50B700CD8B1F /* App */,
-				A469DFFF29DC50D000CD8B1F /* UI */,
-				A469DFFE29DC50CB00CD8B1F /* Helpers */,
-				A469DFFD29DC50C100CD8B1F /* Tasks */,
-				A469DFF429DC509F00CD8B1F /* Preview Content */,
-			);
-			path = "Office-Worker-Simulator";
-			sourceTree = "<group>";
-		};
-		A469DFF429DC509F00CD8B1F /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				A469DFF529DC509F00CD8B1F /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A469DFFC29DC50B700CD8B1F /* App */ = {
-			isa = PBXGroup;
-			children = (
-				A469DFEE29DC509E00CD8B1F /* Office_Worker_SimulatorApp.swift */,
-				A469DFF229DC509F00CD8B1F /* Assets.xcassets */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
-		A469DFFD29DC50C100CD8B1F /* Tasks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tasks;
-			sourceTree = "<group>";
-		};
-		A469DFFE29DC50CB00CD8B1F /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		A469DFFF29DC50D000CD8B1F /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				A469DFF029DC509E00CD8B1F /* ContentView.swift */,
-				A469E00129DC50FC00CD8B1F /* Screen */,
-				A469E00029DC50F600CD8B1F /* Keyboard */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		A469E00029DC50F600CD8B1F /* Keyboard */ = {
-			isa = PBXGroup;
-			children = (
+				A4BB77FE29DED7B70002E28C /* OldTwoButtonKeyboard.swift */,
+				A4BB77FC29DECAA20002E28C /* TwoButtonKeyboardView.swift */,
 			);
 			path = Keyboard;
 			sourceTree = "<group>";
 		};
-		A469E00129DC50FC00CD8B1F /* Screen */ = {
+		A4BB780229DEFFF90002E28C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB781229DF257A0002E28C /* Sounds */,
+				A4BB780D29DF0F880002E28C /* Colors */,
+				A4BB780729DF00B30002E28C /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A4BB780729DF00B30002E28C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB780329DF00210002E28C /* Computer.xcassets */,
+				A4BB780529DF00930002E28C /* Images.swift */,
+				A4BB781829DF3E310002E28C /* Office.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A4BB780829DF01230002E28C /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB780929DF01460002E28C /* KeyButton.swift */,
+				A4BB780B29DF02050002E28C /* HighlightButton.swift */,
+			);
+			path = Reusable;
+			sourceTree = "<group>";
+		};
+		A4BB780D29DF0F880002E28C /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB780E29DF0F960002E28C /* Colors.xcassets */,
+				A4BB781029DF0FB10002E28C /* Colors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		A4BB781229DF257A0002E28C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB781329DF257E0002E28C /* Computer */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		A4BB781329DF257E0002E28C /* Computer */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB781629DF29770002E28C /* oldKey.wav */,
+				A4BB781429DF25AA0002E28C /* Sounds.swift */,
+			);
+			path = Computer;
+			sourceTree = "<group>";
+		};
+		A4C536EC29DC6AE5004641DB = {
+			isa = PBXGroup;
+			children = (
+				A4C536F729DC6AE5004641DB /* Office-Worker-Simulator */,
+				A4C536F629DC6AE5004641DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4C536F629DC6AE5004641DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4C536F529DC6AE5004641DB /* Office-Worker-Simulator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4C536F729DC6AE5004641DB /* Office-Worker-Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				A4C5370F29DC6B0B004641DB /* App */,
+				A4C5371A29DC73FD004641DB /* Game */,
+				A4C5371829DC73CE004641DB /* Computer */,
+				A4C5371929DC73EE004641DB /* Programs */,
+				A4BB780829DF01230002E28C /* Reusable */,
+				A4C5371329DC7094004641DB /* Helpers */,
+			);
+			path = "Office-Worker-Simulator";
+			sourceTree = "<group>";
+		};
+		A4C5370F29DC6B0B004641DB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB780229DEFFF90002E28C /* Resources */,
+				A4C5370529DC6AE6004641DB /* Assets.xcassets */,
+				A4C5370729DC6AE6004641DB /* LaunchScreen.storyboard */,
+				A4C5370229DC6AE5004641DB /* Main.storyboard */,
+				A4C536F829DC6AE5004641DB /* AppDelegate.swift */,
+				A4C5370029DC6AE5004641DB /* GameViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A4C5371029DC703E004641DB /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				A4C5371129DC704C004641DB /* Keyboard.swift */,
+				A4BB77EC29DDBA320002E28C /* Display.swift */,
+				A4C5371629DC72BC004641DB /* Program.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		A4C5371329DC7094004641DB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A4C5371429DC710C004641DB /* Closures.swift */,
+				A4BB77F029DDD5060002E28C /* Haptics.swift */,
+				A4BB77F229DDD5190002E28C /* Storage.swift */,
+				A4BB780029DEDED80002E28C /* ImageFromColor.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A4C5371829DC73CE004641DB /* Computer */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB77FB29DECA8F0002E28C /* Keyboard */,
+				A4BB77F829DEC3A10002E28C /* Display */,
+				A4C5371029DC703E004641DB /* Interfaces */,
+				A4C5371D29DC7C23004641DB /* Computer.swift */,
+				A4BB77F629DE22B20002E28C /* StandardOfficeKeyboard.swift */,
+			);
+			path = Computer;
+			sourceTree = "<group>";
+		};
+		A4C5371929DC73EE004641DB /* Programs */ = {
+			isa = PBXGroup;
+			children = (
+				A4C5371C29DC7BFD004641DB /* Utilities */,
+				A4C5371B29DC7BF7004641DB /* WorkTasks */,
+			);
+			path = Programs;
+			sourceTree = "<group>";
+		};
+		A4C5371A29DC73FD004641DB /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				A4C5372129DC7C98004641DB /* WorkTask.swift */,
+				A4C5372529DC8AAF004641DB /* WorkDay.swift */,
+				A4C5372729DC8B53004641DB /* Game.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		A4C5371B29DC7BF7004641DB /* WorkTasks */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB77EE29DDBED40002E28C /* WorkTaskProgram.swift */,
+				A4C5372329DC7E6D004641DB /* StubWorkTaskProgram.swift */,
+			);
+			path = WorkTasks;
+			sourceTree = "<group>";
+		};
+		A4C5371C29DC7BFD004641DB /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Screen;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A469DFEA29DC509E00CD8B1F /* Office-Worker-Simulator */ = {
+		A4C536F429DC6AE5004641DB /* Office-Worker-Simulator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A469DFF929DC509F00CD8B1F /* Build configuration list for PBXNativeTarget "Office-Worker-Simulator" */;
+			buildConfigurationList = A4C5370C29DC6AE6004641DB /* Build configuration list for PBXNativeTarget "Office-Worker-Simulator" */;
 			buildPhases = (
-				A469DFE729DC509E00CD8B1F /* Sources */,
-				A469DFE829DC509E00CD8B1F /* Frameworks */,
-				A469DFE929DC509E00CD8B1F /* Resources */,
+				A4C536F129DC6AE5004641DB /* Sources */,
+				A4C536F229DC6AE5004641DB /* Frameworks */,
+				A4C536F329DC6AE5004641DB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -132,25 +288,25 @@
 			);
 			name = "Office-Worker-Simulator";
 			productName = "Office-Worker-Simulator";
-			productReference = A469DFEB29DC509E00CD8B1F /* Office-Worker-Simulator.app */;
+			productReference = A4C536F529DC6AE5004641DB /* Office-Worker-Simulator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A469DFE329DC509E00CD8B1F /* Project object */ = {
+		A4C536ED29DC6AE5004641DB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					A469DFEA29DC509E00CD8B1F = {
-						CreatedOnToolsVersion = 14.2;
+					A4C536F429DC6AE5004641DB = {
+						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = A469DFE629DC509E00CD8B1F /* Build configuration list for PBXProject "Office-Worker-Simulator" */;
+			buildConfigurationList = A4C536F029DC6AE5004641DB /* Build configuration list for PBXProject "Office-Worker-Simulator" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -158,42 +314,89 @@
 				en,
 				Base,
 			);
-			mainGroup = A469DFE229DC509E00CD8B1F;
-			productRefGroup = A469DFEC29DC509E00CD8B1F /* Products */;
+			mainGroup = A4C536EC29DC6AE5004641DB;
+			productRefGroup = A4C536F629DC6AE5004641DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A469DFEA29DC509E00CD8B1F /* Office-Worker-Simulator */,
+				A4C536F429DC6AE5004641DB /* Office-Worker-Simulator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A469DFE929DC509E00CD8B1F /* Resources */ = {
+		A4C536F329DC6AE5004641DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A469DFF629DC509F00CD8B1F /* Preview Assets.xcassets in Resources */,
-				A469DFF329DC509F00CD8B1F /* Assets.xcassets in Resources */,
+				A4BB780F29DF0F960002E28C /* Colors.xcassets in Resources */,
+				A4BB780429DF00210002E28C /* Computer.xcassets in Resources */,
+				A4C5370429DC6AE5004641DB /* Main.storyboard in Resources */,
+				A4C5370629DC6AE6004641DB /* Assets.xcassets in Resources */,
+				A4BB781729DF29770002E28C /* oldKey.wav in Resources */,
+				A4BB781929DF3E310002E28C /* Office.xcassets in Resources */,
+				A4C5370929DC6AE6004641DB /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A469DFE729DC509E00CD8B1F /* Sources */ = {
+		A4C536F129DC6AE5004641DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A469DFF129DC509E00CD8B1F /* ContentView.swift in Sources */,
-				A469DFEF29DC509E00CD8B1F /* Office_Worker_SimulatorApp.swift in Sources */,
+				A4BB77F129DDD5060002E28C /* Haptics.swift in Sources */,
+				A4BB781129DF0FB10002E28C /* Colors.swift in Sources */,
+				A4C5372229DC7C98004641DB /* WorkTask.swift in Sources */,
+				A4BB77FF29DED7B70002E28C /* OldTwoButtonKeyboard.swift in Sources */,
+				A4C5370129DC6AE5004641DB /* GameViewController.swift in Sources */,
+				A4BB77FD29DECAA20002E28C /* TwoButtonKeyboardView.swift in Sources */,
+				A4C5371E29DC7C23004641DB /* Computer.swift in Sources */,
+				A4BB781529DF25AA0002E28C /* Sounds.swift in Sources */,
+				A4BB77F529DE22A80002E28C /* OldBoxDisplay.swift in Sources */,
+				A4BB780C29DF02050002E28C /* HighlightButton.swift in Sources */,
+				A4BB780A29DF01460002E28C /* KeyButton.swift in Sources */,
+				A4BB780629DF00930002E28C /* Images.swift in Sources */,
+				A4BB77F729DE22B20002E28C /* StandardOfficeKeyboard.swift in Sources */,
+				A4C5371529DC710C004641DB /* Closures.swift in Sources */,
+				A4BB780129DEDED80002E28C /* ImageFromColor.swift in Sources */,
+				A4C5371229DC704C004641DB /* Keyboard.swift in Sources */,
+				A4C5372829DC8B53004641DB /* Game.swift in Sources */,
+				A4BB77F329DDD5190002E28C /* Storage.swift in Sources */,
+				A4BB77EF29DDBED40002E28C /* WorkTaskProgram.swift in Sources */,
+				A4C536F929DC6AE5004641DB /* AppDelegate.swift in Sources */,
+				A4C5372629DC8AAF004641DB /* WorkDay.swift in Sources */,
+				A4C5371729DC72BC004641DB /* Program.swift in Sources */,
+				A4C5372429DC7E6D004641DB /* StubWorkTaskProgram.swift in Sources */,
+				A4BB77ED29DDBA320002E28C /* Display.swift in Sources */,
+				A4BB77FA29DEC3B40002E28C /* DisplayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		A4C5370229DC6AE5004641DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4C5370329DC6AE5004641DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4C5370729DC6AE6004641DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4C5370829DC6AE6004641DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		A469DFF729DC509F00CD8B1F /* Debug */ = {
+		A4C5370A29DC6AE6004641DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -253,7 +456,7 @@
 			};
 			name = Debug;
 		};
-		A469DFF829DC509F00CD8B1F /* Release */ = {
+		A4C5370B29DC6AE6004641DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,7 +500,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -307,22 +510,22 @@
 			};
 			name = Release;
 		};
-		A469DFFA29DC509F00CD8B1F /* Debug */ = {
+		A4C5370D29DC6AE6004641DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Office-Worker-Simulator/Preview Content\"";
 				DEVELOPMENT_TEAM = 9JH2U4SKKP;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,28 +533,31 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "art.sh.Office-Worker-Simulator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		A469DFFB29DC509F00CD8B1F /* Release */ = {
+		A4C5370E29DC6AE6004641DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Office-Worker-Simulator/Preview Content\"";
 				DEVELOPMENT_TEAM = 9JH2U4SKKP;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -359,34 +565,37 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "art.sh.Office-Worker-Simulator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A469DFE629DC509E00CD8B1F /* Build configuration list for PBXProject "Office-Worker-Simulator" */ = {
+		A4C536F029DC6AE5004641DB /* Build configuration list for PBXProject "Office-Worker-Simulator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A469DFF729DC509F00CD8B1F /* Debug */,
-				A469DFF829DC509F00CD8B1F /* Release */,
+				A4C5370A29DC6AE6004641DB /* Debug */,
+				A4C5370B29DC6AE6004641DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A469DFF929DC509F00CD8B1F /* Build configuration list for PBXNativeTarget "Office-Worker-Simulator" */ = {
+		A4C5370C29DC6AE6004641DB /* Build configuration list for PBXNativeTarget "Office-Worker-Simulator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A469DFFA29DC509F00CD8B1F /* Debug */,
-				A469DFFB29DC509F00CD8B1F /* Release */,
+				A4C5370D29DC6AE6004641DB /* Debug */,
+				A4C5370E29DC6AE6004641DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A469DFE329DC509E00CD8B1F /* Project object */;
+	rootObject = A4C536ED29DC6AE5004641DB /* Project object */;
 }
