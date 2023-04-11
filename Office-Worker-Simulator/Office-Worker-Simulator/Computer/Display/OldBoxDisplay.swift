@@ -1,7 +1,7 @@
 import UIKit
 
 class OldBoxScreen: Display {
-    private lazy var displayView = DisplayView(designImage: Images.oldDisplay, screenInsets: .init(top: 20, left: 20, bottom: 20, right: 20))
+    private lazy var displayView = DisplayView(designImage: Images.Computer.oldDisplay, screenInsets: .init(top: 20, left: 20, bottom: 20, right: 20))
     
     func provideScreen() -> UIView {
         displayView.screen

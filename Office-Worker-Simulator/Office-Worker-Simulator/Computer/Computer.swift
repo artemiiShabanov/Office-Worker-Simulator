@@ -35,12 +35,12 @@ class Computer {
     }
     
     func unplugDisplay() {
-        keyboardContainer.subviews.forEach { $0.removeFromSuperview() }
-        keyboard = nil
+        screenContainer.subviews.forEach { $0.removeFromSuperview() }
+        display = nil
     }
     
     func plugIn(keyboard: Keybaord) {
-        if self.keyboard != nil { unplugDisplay() }
+        if self.keyboard != nil { unplugKeyboard() }
         self.keyboard = keyboard
         keyboard.render(in: keyboardContainer)
         self.keyboard?.onTap = { [weak self] in

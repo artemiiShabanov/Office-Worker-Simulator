@@ -1,9 +1,9 @@
 import Foundation
 
-protocol WorkTaskProgramDelegate {
-    func taskFinished(success: Bool)
+protocol WorkTaskProgramDelegate: AnyObject {
+    func finished(success: Bool)
 }
 
-protocol WorkTaskProgram: Program {
-    func set(delegate: WorkTaskProgramDelegate)
+protocol WorkTaskProgram: Program, AnyObject {
+    var delegate: WorkTaskProgramDelegate? { get set }
 }

@@ -32,6 +32,7 @@ private extension DisplayView {
         screenView.translatesAutoresizingMaskIntoConstraints = false
         screenView.backgroundColor = .blue
         screenView.layer.cornerRadius = 8
+        screenView.clipsToBounds = true
         
         NSLayoutConstraint.activate([
             imageView.bottomAnchor.constraint(equalTo: bottomAnchor),

@@ -1,8 +1,9 @@
 import AVFoundation
 
-
 enum Sound: CaseIterable {
     case oldKey
+    case accessDenied
+    case mouseClick
 }
 
 fileprivate extension Sound {
@@ -11,6 +12,10 @@ fileprivate extension Sound {
         switch self {
         case .oldKey:
             resource = "oldKey.wav"
+        case .accessDenied:
+            resource = "accessDenied.wav"
+        case .mouseClick:
+            resource = "mouseClick.wav"
         }
         return URL(fileURLWithPath: Bundle.main.path(forResource: resource, ofType: nil)!)
     }
@@ -32,4 +37,3 @@ final class SoundPlayer {
         AudioServicesPlaySystemSound(soundId)
     }
 }
-

@@ -11,11 +11,7 @@ class HighlightButton: UIButton {
         }
     }
 
-    func highlight() {
-        // Animate changes for highlighting
-    }
+    func highlight() { }
 
-    func unHighlight() {
-        // Animate changes for un-highlighting
-    }
+    func unHighlight() { }
 }

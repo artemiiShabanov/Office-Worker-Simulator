@@ -1,0 +1,33 @@
+"difficulty_name_intern" = "intern";
+"difficulty_name_employee" = "employee";
+"difficulty_name_manager" = "manager";
+"difficulty_name_CEO" = "CEO";
+
+"worktask_description_typing" = "type fast and accurate";
+"worktask_description_clicks" = "dont miss a button";
+"worktask_description_fileSort" = "sort files correctly";
+
+"welcome_to_OWS" = "Welcome to OWS system\nEnter password";
+"no_access" = "You have no access to OWS system";
+"next_task" = "Contgratulations! Your next task is \"%@\"\nSurvive 60 seconds\nPress 3 times to start";
+"promotion" = "Congratulations!\n Now you get \"%@\" badge\nWe are proud of you 🍾";
+"credits_line1" = "Game Designer: Artemii Shabanov";
+"credits_line2" = "Main Programmer: Artemii Shabanov";
+"credits_line3" = "Screenwriter: Artemii Shabanov";
+"credits_line4" = "Assets Designer: Artemii Shabanov";
+"no_cheatcode" = "Cheatcode not found";
+
+"fired" = "FIRED";
+"fired_message" = "Respected, _\n\n\nOn behalf of our company, it is very sad to announce that you have been terminated from our company. As a field manager it was our pleasure to work with you. As per the reasons you know that your very poor skills could not be accepted by our Board of directors.\n\nIt is a hard time not only for you but also for us. Your termination is a very harsh decision, but it cannot be avoided. As for your basic and fund payments we request you to collect it from the reception. It has been already been delivered. Your files are already posted at your place.\n\nI hope you will find a better option than us. You are a strong man and that could be accepted. Thanking you.\n\nYours Sincerely, Artemii Shabanov";
+"fired_restart" = "If you want to restart press \"→\" button %d times";
+
+"yes" = "yes";
+"no" = "no";
+
+"welcome_message" = "Welcome to OWS 🥳🍾🎉\n\nBefore you can start your work at our company you should read our terms and conditions\n\nReady?";
+"sign_message" = "Are you ready to sign a contract?\n\nOWS gives only one chance";
+
+"exit" = "exit";
+
+"task_completed" = "TASK COMPLETED\n\npress any button";
+"task_failed" = "TASK FAILED\n\npress any button";

@@ -12,5 +12,4 @@ struct WorkDay {
         currentTaskIndex += 1
         return tasks[currentTaskIndex]
     }
-    
 }

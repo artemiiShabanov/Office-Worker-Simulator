@@ -1,26 +1,18 @@
 import UIKit
 
 private let textAttributes: [NSAttributedString.Key : Any] = [
-    .strokeColor : Colors.oldKey,
     .foregroundColor : UIColor.darkText,
-    .strokeWidth : -3.0,
     .font: UIFont.systemFont(ofSize: 30, weight: .medium)
 ]
 
 class OldTwoButtonKeyboard: Keybaord {
     private lazy var keyboardView: TwoButtonKeyboardView = {
-        let view = TwoButtonKeyboardView(designImage: Images.oldKeyboard, buttonImage: Images.oldKey)
-        view.leftButton.addTarget(self, action: #selector(leftTap), for: .touchUpInside)
+        let view = TwoButtonKeyboardView(designImage: Images.Computer.oldKeyboard, buttonImage: Images.Computer.oldKey)
+        view.leftButton.addTarget(self, action: #selector(leftTap), for: .touchDown)
         configure(key: view.leftButton)
-        view.rightButton.addTarget(self, action: #selector(rightTap), for: .touchUpInside)
+        view.rightButton.addTarget(self, action: #selector(rightTap), for: .touchDown)
         configure(key: view.rightButton)
         view.translatesAutoresizingMaskIntoConstraints = false
-        
-        view.layer.masksToBounds = false
-        view.layer.shadowColor = UIColor.black.cgColor
-        view.layer.shadowOpacity = 0.4
-        view.layer.shadowOffset = CGSize(width: 2, height: 5)
-        view.layer.shadowRadius = 10
         return view
     }()
     var onTap: Closure<KeyType>?
@@ -33,13 +25,11 @@ class OldTwoButtonKeyboard: Keybaord {
             keyboardView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             keyboardView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
         ])
-        
-        keyboardView.setup(symbols: ["0", "Ctrl"], textAttributes: textAttributes)
     }
     
     func `switch`(keys: [Key]) {
-        guard keys.count == 2, keys.contains(where: { $0.type == .left }), keys.contains(where: { $0.type == .right }) else { return }
-        keyboardView.setup(symbols: keys.map(\.symbol), textAttributes: textAttributes)
+        guard keys.count == 2, let left = keys.first(where: { $0.type == .left }), let right = keys.first(where: { $0.type == .right }) else { return }
+        keyboardView.setup(symbols: [left.symbol, right.symbol], textAttributes: textAttributes)
     }
 }
 

@@ -32,7 +32,7 @@ private extension TwoButtonKeyboardView {
         backgroundImageView.translatesAutoresizingMaskIntoConstraints = false
         backgroundImageView.contentMode = .scaleAspectFit
         backgroundImageView.clipsToBounds = true
-        backgroundImageView.layer.cornerRadius = 8
+        backgroundImageView.layer.cornerRadius = 4
         backgroundImageView.backgroundColor = .clear
         
         addSubview(leftButton)
