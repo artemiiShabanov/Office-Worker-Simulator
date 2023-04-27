@@ -3,8 +3,5 @@ Office Worker Simulator is a 2D game developed on SpriteKit as part of the my st
 Feel free to look at [source code](https://github.com/artemiiShabanov/Office-Worker-Simulator) and try this game at [AppStore](https://github.com/artemiiShabanov/Cube-Squared).
 You also can contact me at [telegram](https://t.me/artemiishabanov) or artemshabanov7@mail.ru.
 
-Demo:
-
-<video src="https://user-images.githubusercontent.com/22852361/229124417-b14fd868-67be-4253-87b7-f78fb273ba17.mp4" controls="controls" style="max-width: 200px;">
-</video>
+<img src="https://user-images.githubusercontent.com/22852361/234931529-3e47bb34-8c26-4009-b9b5-839da47c6b36.png" width="200">
 
